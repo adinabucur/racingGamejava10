@@ -9,12 +9,18 @@ public class App
     public static void main( String[] args )
 
 
-    {Car car = new Car();
-    car.name = "Dacia";
-    car.color = "White";
+       {Car car = new Car();
+        car.name = "Dacia";
+        car.color = "White";
         car.doorCount = 4;
         car.mileage = 7.5;
         car.running = true;
+
+        double carTravelDistance
+                = car.accelarate(100, 2);
+
+
+
 
         Engine engine = new Engine();
         engine.manufacturer = "Renault";
